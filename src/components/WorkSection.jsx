@@ -7,12 +7,12 @@ const WorkSection = () => {
   const workItems = [
     { title: "Elegant Bridal Makeup", category: "bridal", image: "https://dimplemakeovers.in/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-22-at-18.13.31-1-1.jpeg" },
     { title: "Fashion Editorial", category: "editorial", image: "https://i.pinimg.com/736x/87/03/83/87038338ba5c2ed656e229d5ec03788d.jpg" },
-    { title: "Fantasy Creature", category: "specialfx", image: "./src/images/1.png" },
-    { title: "Vintage Updo", category: "hair", image: "./src/images/2.png" },
+    { title: "Fantasy Creature", category: "specialfx", image: "/images/1.png" },
+    { title: "Vintage Updo", category: "hair", image: "/images/2.png" },
     { title: "Traditional Bridal", category: "bridal", image: "https://i.pinimg.com/1200x/e1/05/a8/e105a88ff63f2adb50fa7ce64fbd784c.jpg" },
-    { title: "High Fashion", category: "editorial", image: "./src/images/3.jpg" },
-    { title: "Modern Braids", category: "hair", image: "./src/images/4.png" },
-    { title: "Aging Effect", category: "specialfx", image: "./src/images/5.png" }
+    { title: "High Fashion", category: "editorial", image: "/images/3.jpg" },
+    { title: "Modern Braids", category: "hair", image: "/images/4.png" },
+    { title: "Aging Effect", category: "specialfx", image: "/images/5.png" }
   ];
 
   const filteredItems = activeFilter === 'all' ? workItems : workItems.filter(item => item.category === activeFilter);
