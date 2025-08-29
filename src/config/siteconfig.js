@@ -13,7 +13,6 @@ const siteConfig = {
     slides: [
       {
         text: "Timeless elegance meets modern sophistication",
-<<<<<<< HEAD
         bgImage: "/images/1.png"
       },
       {
@@ -31,26 +30,7 @@ const siteConfig = {
       {
         text: "Crafting memories that last forever",
         bgImage: "/images/5.png"
-=======
-        bgImage: "/src/images/1.png"
       },
-      {
-        text: "Where dreams become reality", 
-        bgImage: "/src/images/2.png"
-      },
-      {
-        text: "Crafting perfection for your special day",
-        bgImage: "/src/images/3.jpg",
-      },
-      {
-        text: "Every details tell your story",
-        bgImage: "/src/images/4.png"
-      },
-      {
-        text: "Crafting memories that last forever",
-        bgImage: "/src/images/5.png"
->>>>>>> 1718130fa75f0ffc357f4b995123e0e3322562c9
-      }
     ]
   },
   services: [
