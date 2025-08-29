@@ -13,23 +13,23 @@ const siteConfig = {
     slides: [
       {
         text: "Timeless elegance meets modern sophistication",
-        bgImage: "./src/images/1.png"
+        bgImage: "/src/images/1.png"
       },
       {
         text: "Where dreams become reality", 
-        bgImage: "./src/images/2.png"
+        bgImage: "/src/images/2.png"
       },
       {
         text: "Crafting perfection for your special day",
-        bgImage: "./src/images/3.jpg",
+        bgImage: "/src/images/3.jpg",
       },
       {
         text: "Every details tell your story",
-        bgImage: "./src/images/4.png"
+        bgImage: "/src/images/4.png"
       },
       {
         text: "Crafting memories that last forever",
-        bgImage: "./src/images/5.png"
+        bgImage: "/src/images/5.png"
       }
     ]
   },
